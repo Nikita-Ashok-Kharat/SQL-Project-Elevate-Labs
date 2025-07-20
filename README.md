@@ -12,7 +12,9 @@ A simple SQL-based **Library Management System** developed using MySQL Workbench
 ## 📂 Project Structure
 📁 Library-Management-System  
  ┣ 📄 `library_management.sql`   — Main SQL script with DDL, sample data, trigger, views, and reports  
- ┗ 📄 `README.md`                 — Project documentation  
+ ┣ 📄 `README.md`                 — Project documentation  
+ ┣ 📄 `ER_Diagram.pdf`            — Entity-Relationship diagram of the database  
+ ┗ 📄 `Project_Report.pdf`        — 2-page project summary/report  
 
 ## 🗃️ Database Schema
 - **Authors** – stores author details  
@@ -59,4 +61,3 @@ SELECT * FROM borrowed_books ORDER BY due_date;
 
 -- 4. View all overdue books
 SELECT * FROM overdue_books ORDER BY due_date;
-
